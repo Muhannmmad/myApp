@@ -33,11 +33,11 @@ void main() {
       case 'E':
         // Exit
         isProgramRunning = false;
-        print('Exiting program. Goodbye!');
+        print(' Goodbye');
         break;
 
       default:
-        print('Invalid choice. Please select L, S, P, or E.');
+        print('Invalid choice');
     }
   }
 }
