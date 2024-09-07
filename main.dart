@@ -5,7 +5,7 @@ void main() {
 
   while (isProgramRunning) {
     print(
-        'write L for Login   or   Write S for SignUp   or   write E for Exit');
+        'write L for Login   or   Write S for SignUp     or P for Profile   or   F for Feed   or   write E for Exit');
 
     //  user input
     String? userChoice = stdin.readLineSync();
@@ -31,10 +31,20 @@ void main() {
         // Add sign-up logic and validation here
         break;
 
+      case 'P':
+        // Profile
+        print('Your Profile');
+        break;
+
+      case 'F':
+        // Profile
+        print('See other Profiles');
+        break;
+
       case 'E':
         // Exit
         isProgramRunning = false;
-        print(' Goodbye');
+        print('Goodbye');
         break;
 
       default:
