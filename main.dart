@@ -4,7 +4,8 @@ void main() {
   bool isProgramRunning = true;
 
   while (isProgramRunning) {
-    print('Login(L)/ SignUp(S)/ Exit(E)');
+    print(
+        'write L for Login   or   Write S for SignUp   or   write E for Exit');
 
     //  user input
     String? userChoice = stdin.readLineSync();
